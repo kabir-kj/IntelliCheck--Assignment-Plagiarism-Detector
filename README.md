@@ -1,0 +1,2 @@
+# IntelliCheck: Assignment Plagiarism Detector
+ 
