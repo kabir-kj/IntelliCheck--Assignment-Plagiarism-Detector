@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Varela+Round&display=swap');
+@import url('https://db.onlinewebfonts.com/c/d8a3c95906aec0c2483082a82e72cb40?family=Wanderlust+Shine'); /* font-family: "Wanderlust Shine"; */
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400&family=Varela+Round&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  height: auto; 
+  background-color: black;
+  z-index: 100; 
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 40px;
+  align-items: center;
+  padding: 0 8px; 
+  margin: 0; 
+}
+
+nav ul li {
+  padding: 0 15px; 
+  font-size: 14px; 
+  margin-top: 5px; 
+  color: white; 
+ 
+}
+
+ .easyqueue-text {
+    font-family: 'Wanderlust Shine', cursive;
+    font-size: 24px;
+    margin-top: -7px;
+  }
+
+  nav .nav-item {
+    margin-left: auto; /* Push the "Logout" link to the left */
+}
+
+.nav-link {
+  color: white; /* Text color for the logout button */
+  text-decoration: none; /* Remove underline from the button */
+  font-size: 16px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+}
+
+  .form-box {
+    width: 380px;
+    height: 480px;
+    margin-top: 130px;
+    margin-left: 550px;
+    padding: 5px;
+    overflow: hidden;
+    background: transparent;
+  }
+  
+  
+  .button-box
+  {
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #0707071f;
+    border-radius: 30px
+  }
+  
+  
+  #btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background-color: #100c08;
+    border-radius: 30px;
+    transition: .5s;
+  }
+  
+  .heading{
+    margin-left: 100px;
+  }
+
+
+  .input-group{
+    top: 100px;
+    position: absolute;
+    width: 280px;
+  }
+  
+  .input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 155px 5px 25px 45px;
+    border-left: 0;
+    border-top: 0px;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+  }
+
+  .file{
+    margin-left: 105px;
+    margin-top: 20px;
+  }
+  
+  .submit-button1{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    background:  #100c08;;
+    outline: none;
+    border-radius: 30px;
+    color: white;
+    margin: 35px 5px 5px 58px;
+  }
+  
+  .Popup{
+    width: 400px;
+    background: #fff;
+    border-radius: 6px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    text-align: center;
+    padding: 0 30px 60px;
+    color: #333;
+    visibility: hidden;
+}
+
+.Popup img{
+    width:  200px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2); 
+}
+
+.Popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+.open-popup{
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%)scale(1);
+}
+
+.Popup button{
+  width: 75%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  background:  #100c08;;
+  outline: none;
+  border-radius: 30px;
+  color: white;
+  margin: 35px 5px 5px 58px; 
+}

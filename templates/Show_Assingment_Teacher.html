@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+  
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliCheck</title>
+    <link rel="stylesheet" href="{% static 'Teacher_Assingment.css' %}">
+   
+</head>
+
+<body>
+   
+    <nav>
+        <ul>
+            <li class="brand"> <span class="easyqueue-text">IntelliCheck</span></li>
+            <li> <a class="nav-link" href="/Teacher_Dashboard/">Create Assingment</a> </li>
+            <li> <a class="nav-link" href="/showassigmentst/">Show Assingment</a></li>
+            <li> <a class="nav-link" href="/Update_Assingment/">Update/Delete Assingment</a></li>
+            <li class="nav-item"> <a class="nav-link" href="/Teacher_logout/">Logout</a> </li>
+        </ul>
+    </nav>
+    <div class="hero">
+           <table class = "test">
+            <tr class = "test1">
+                <th class = "test1">Sr.No</th>
+                <th class = "test1">Teacher Name</th>
+                <th class = "test1">Assingment Name</th>
+                <th class = "test1">Key</th>
+                <th class = "test1">Assingment Link</th>
+                <th class = "test1">Submissions</th>
+            </tr>
+            {% for assingment in assignments %}
+            <tr class  = "test1">
+                <td class = "test1">{{ forloop.counter }}</td>
+                <td class = "test1">{{assingment.Tname}}</td>
+                <td class = "test1">{{assingment.Aname}}</td>
+                <td class = "test1">{{assingment.key}}</td>
+                {% if assingment.document%}
+                <td class="test1">
+                    <a href="{{ assingment.document.url }}" download="{{ assingment.document.name }}">
+                        Download
+                    </a>
+                </td>
+                {% else %}
+                <td class = "test1">No Document Available</td>
+                {% endif%}
+                <td class = "test1"><a href="{% url 'view_submissions' assingment_key=assingment.key %}">View Submissions</a></td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+</body>

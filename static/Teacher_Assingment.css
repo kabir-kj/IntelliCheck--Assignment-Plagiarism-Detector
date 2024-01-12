@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Varela+Round&display=swap');
+@import url('https://db.onlinewebfonts.com/c/d8a3c95906aec0c2483082a82e72cb40?family=Wanderlust+Shine');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300;400&family=Varela+Round&display=swap'); /* font-family: "Wanderlust Shine"; */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+nav {
+  font-family: 'Roboto', sans-serif;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+  height: auto; 
+  background-color: black;
+  z-index: 100; 
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  height: 40px;
+  align-items: center;
+  padding: 0 8px; 
+  margin: 0; 
+}
+
+nav ul li {
+  padding: 0 15px; 
+  font-size: 14px; 
+  margin-top: 5px; 
+  color: white; 
+ 
+}
+
+
+nav .nav-item {
+    margin-left: auto; /* Push the "Logout" link to the left */
+}
+
+.nav-link {
+  color: white; /* Text color for the logout button */
+  text-decoration: none; /* Remove underline from the button */
+  font-size: 15px;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.brand {
+  display: flex;
+  align-items: center; 
+}
+
+.easyqueue-text {
+  font-family: 'Wanderlust Shine', cursive;
+  font-size: 24px;
+  margin-top: -7px;
+}
+
+
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-left: 36px;
+    align-items: center;
+    height: 100vh;
+    background-color: transparent;
+}
+
+.test{
+    border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.test1{
+    border: 1px solid black;
+  border-collapse: collapse;
+}

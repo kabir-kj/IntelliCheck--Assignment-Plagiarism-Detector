@@ -1,0 +1,1543 @@
+A.G.E.
+
+Cnpslonc Project Report
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+ 
+  
+   
+ 
+ 
+  
+ 
+  
+End-ScmcstcrEvalnallnn
+Submitted by:
+(101603I4I)JISHAN GARG
+(101611023)HIMANSHUAMETHIA
+(101610059)MUKUL KAUSHIK
+(101603118)H1MANIGARG
+BE Final Year, COE
+CPG No: 102
+Under the Mentorship of
+. Dr Ravinder Kumar .
+
+(Asst. Professor)
+'_emant Kumar Giane)’
+S'l'l'l'U'l'l'L
+IanmUU-‘v‘
+[Jui‘TS'M-I) ‘
+'neering Department
+...rABSTRAC '
+ 
+L
+  
+  
+  
+ 
+ 
+  
+ 
+  
+ 
+  
+ 
+   
+  
+   
+    
+  
+   
+    
+   
+3 .‘POSSIhIhUCS 0f applications have made emotion recognition ineluctable and
+“ '- 1“ the held 0f computer “ﬂame. The use oi" non-verbal cues such as gestures,
+I]. cut. and tacial expressions convey the feeling and the feedback to the user.
+
+_,'r.:":1 of Human—Computer Interaction places reliance on the algorithmic
+and the sensitivity of the sensor to ameliorate the recognition. Sensors play a
+role in accurate detection by providing a very high-quality input, hence
+' ._. efﬁciency and the reliability of the system. Automatic recognition of
+Prawould help in teaching social intelligence in the machines. Along with
+of Age and gender recognition enhances the scope of the
+"a; exist products which can identify age, gender and expression
+ao‘ur knowledge there in no product which does all these
+Frequirement of this kind of product among marketing ﬁrms
+er and expression of the people coming to their exhibitions
+and T new insights about their potential customers. So our
+product.
+report of all .
+both the hardware -
+this product. Inthis p‘ -“
+preprocessing it through itna
+development and ML technique
+The model was trained on various
+-'- ”tender and expression simultaneously and accumulative
+' helpful in decision making. We will be providing
+(web application and/or android application) for
+rajor activities includes capturing image and
+Mtg technique. OpenCv platform of is used for the
+{11 network is employed achieve the objectives.
+iﬁcation methods to get the one with bestDECLARATI 5- ..
+
+  
+that ““3 chiﬂ“ principles and working prototype model of the project
+is an authentic record of our own work carried out in the Computer
+, __ ' 11113 Department, TIET, Patiala, under the guidance of Dr Ravindcr
+aa- _ m : I. Kumar Gianey during 7th semester (2019).
+
+x a I a:-;.'—'-.-.-
+a \ : . ‘
+' Adar}:
+L Asst. Professor
+CSED,
+TIET, PatialaACKNOWLEDGE 1'”
+" .6 to express our thanks to our mentors Dr Ravinder Kumar and Dr. Hemant
+2-_:____sy. He has been of great help in our venture, and an indispensable resource
+knowledge. He is truly an amazing mentor tohave.
+
+- _-.};-.;a thankful to Dr. Maninder Singh Head, Computer Science and Engineeﬁng
+=‘E__ g-entire faculty and staff of Computer Science and Engineering Department,
+__1 -'ends who devoted their valuable time and helped us in all possible ways
+- I: .. completion of this project. We thank all thOSe who have contributed
+-:=:‘_- -._ _tly towards this prOj ect-
+"' lee to thank our families for their unyielding love and
+uted the best for us and we admire their determination
+_
+HAM/W
+_ 101603141 ...
+1; ma
+' 101610059
+! 101503110 'W; 0N
+._ DGEMENT
+URES
+   
+ 
+ 
+    
+   
+  
+  
+    
+  
+ 
+     
+  
+_: VIATIONS CHAPTER
+.. ' 0N
+tOvcn'ic-w
+      
+    
+  
+   
+  
+l.l.l Tochnicallcrminohgy :3
+‘. l.l.2 thlcmstatcmcnt I0
+351.3 Goal 1 I
+_dSolution ll
+"3.33.12
+1 3
+andScopc 14
+?-"Constraints 1 4
+15
+-"’" l6
+i'r'fi-u I eliverables 17
+17
+' T NT ANALYSIS
+1 3
+ProblemArea 13
+Solutions 13
+ExistingLiterature 20
+__ “115:. '_ eenldenti ﬁ ed 24
+w 2. , _ nom__ologieSUsed 25
+I 2.2 Standards . ' 26
+; 2.3 Software Roquirim : row 23
+. 2.3.1 Introduction __ ' 23
+2.3.1.1 PUI’pO-if; 29
+2.3.1.2 Intended? . “I'ReadingSuggestions 29
+2.3.1.3 ProjectScopé-z - _ 29
+2.3.2 OverallDescﬁption ' 29
+2.3.2.1 ProductPerspectivr-E” 1""1 30
+2.12:2 ProductFeaturcs . 30
+2.3.3 Exte'ma‘l InterfaceRequirements 30
+V
+x__‘__________________—__—_1!:-
+23'31 UserInterfaces
+J Technologies Used
+_; IGN SPECIFICATIONS
+hitecture
+5.4.2 TestCa'SGS I
+5.4.3 TestResultS
+ 
+34
+34
+35
+36
+40
+43
+43
+43
+45
+45
+47
+47
+47
+47
+47
+4'7
+48
+48
+495.5 Results and Discussions
+5.6 InferencesDrawn
+5.? Validation ofObjcctivcs
+.. .1: if?! 7"} :.'..
+
+(‘5'. -I
+   
+  
+ 
+ 
+   
+Economic and Social Beneﬁts
+METRICS
+.11: ledgeSharing
+hedulc
+yin-"tion and Performance Indicators
+vi
+  
+ 
+55
+55
+55
+56
+5‘7
+58
+59
+60
+603 -ssment Matrix
+ 
+   
+   
+Caption
+Findings for Existing Literature
+Subjects
+ 
+51
+52
+53.' 3: ization forstandards
+- t Proposal
+ 
+f.. mhnicalCommission"_..:r:=_ mitworks An ML model representing biological neurons
+'r__: ing a Ml. model.
+wed to achieve a speciﬁc goal.
+'=-.u-'cular item from different available categories.
+
+) has become a very interesting and challenging area
+’bb its wide application possibilities. Mental state
+tion, Human behavior understanding etc. are some
+wide application possibilities Face expression
+:r-le in the area of facial image processing.
+
+"'ve made emotion recognition ineluetable and
+The use of non-verbal cues such as gestures,
+array the feeling and the feedback to the user.
+places reliance on the algorithmic
+bub'eliorate the recognition. Sensors play a
+_ g a very high-quality input, hence
+increasing e system. Automatic recognition of
+ﬁlligence in the machines. Along with
+”Lion enhances the scope of the product.
+
+Lntify age, gender and expression
+human emn"ti:-,
+expression the flu:
+As of now there '
+individually but to our kn' product which does all these
+simultaneously.
+
+There is a requirement of this kind of ilibl - keting ﬁrms WhiCh can identify
+age. gender and express-ion of the people -.uselr exhibitions and shops so that
+they can get new insights about their potential-
+10"r.-__nv1de our customers with a product(A.G.E) that will enable .-."".__ _.
+
+"Cue hardware as well as software for this product. Along with
+7%,; __ _ sion with a limited time span will be the outcome of our
+=i‘g_."rte of all 3 factors (Age. Gender, Type of Expression) will
+.. ‘2":
+includes capturing image and preprocessing it through
+-'__CV platform of is used for the development and a ML
+fpwloyed achieve the objectives- The model is trained
+et the one withbest accuracy.
+
+- .ach'me Learning our product provides the users with
+." ression of a person. By combining these three
+-' and expression from an image simultaneously we
+w e face/expression detecting product and the
+hender and expression simultaneously can be
+33.3. -tistical analysis.
+
+Our product W1 -.'_r. instance companies can use this product to
+identify their cust'o' . .
+Products. It can also be its“ .
+
+it can 'be used for revi . ..
+
+33.11;) and which gender likes what kind of
+- '3 for other medical purpose. On large scale
+judging comedy shows by capturing the
+expression of target audience th” - the “313 OfJUdBCS-
+ll. ‘8 Oﬁcn a need to know the review of people about a
+_-sent1mem ““35““ i3 80ml. its major restriction is that we need
+- I" This is a major drawback as many people are not willing
+nﬂmys possible to take a written review.
+
+1 ﬂat can analyze people emotions without having to write
+to develop such a product. Furthermore. in exhibitions
+-' 1*— know the potential customers for their product. They
+"ﬁner and of which age group are more attracted to their
+‘- this information to sellers by analyzing the people's
+a government 2’ political parties want to know
+Jig So our product can be installed on politician’s
+'feople emotion will indicate people are happy
+. regularly monitor people suffering from
+”' s_y psychologists to keep a check on their
+  
+ 
+ 
+ 
+ 
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+L3 RESEARC : -.' en,
+It is the most t Hall the research gaps in order to solve
+any problem will be -_ .. I..__r-ch as possible the differences between
+thin-gs to be closer and no “lit-la. ' f; more. Emotions can be ordered by
+agreement hierarchy. Second, , '_ .21: : overall performance on the emotion
+rating task, especially for.the emotioii~
+detecting fear. And fourth, older subjects-I
+ﬁnd that both genders assign higher ratings 0 .
+
+if]. Third, subjects perform the worst at
+3- er ratings of disgust. Inaddition, we
+12vol-y lies on feedback forms for identifying their customer base. This
+5':_ i g error prone is also time consuming and targets only a small
+is a need of a product that can help companies to identify their
+' '- Speciﬁcally them for feedback. Our product aims to solve this
+-__. and gender detection.
+
+Y ﬁelds few of them are —
+_ rat to identify theircustomerbase.
+
+- or identifyingpoliticalu'ends.
+
+--"_'. 6 them in their personal life for reviewing
+ii): the day.
+
+' ”i lfor other medical purposes.
+
+13ONSANDCONSTRAINTS
+    
+.-. of constraint and assumption for our project- For
+-. condition should be their at the time oﬁmgecaptwing.
+" _'_- Earn the camera is tnbemaintained.
+
+144.1? --
+1055' :-="..
+
+6.5tore ill: m '-
+Pi‘t‘ I'l'm rning
+-.
+
+_- Methodology
+     
+  
+   
+Fate
+Not In ligation
+ 
+ 
+Feature
+Exinrtioll
+Statisﬂcs Allah-us I
+ 
+. ( 'uullt \
+o ()ppln 1|“:in m
+ht't'
+a I)“ rll Thu?
+0 Allrnliou Time
+o (£(‘Illlt'l'
+0 Age
+"cognitionUTCOMESANDDELIVERABLES
+our ﬁnal product is a plastic/metal box having Raspberry pi and camera inside 1t, __
+. mstall.in shops/exhibitions to collect data by capturing thecrowd’sfaces.
+
+Lt'systems that can detect person’s age and machines that are used to
+.-..-.-__'-_. feelings, emotions on the basis of his facial expressions. But all _
+i .‘i
+_-;'g__:". Gender, Age, Facial Expressions cannot be detected
+- _ such device have been developed that can recognize all these
+Wpew in Age, Gender, FacialExpressionRecognition.
+
+16___ . _ .rmsmvsv
+__-._ - - With Problem Area
+ 
+ 
+   
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+  
+  
+In image analysis and pattern rccognitimi open up the possibility
+[in and Classit'icmim or emotional and conversational facial
+facial expression analysis and recognition could bring facial
+-_.-u chine interaction as a new modality and make the interaction
+Verbal P331 01' SPOken words of a message contributes only for 7
+{if the message as a WhOIB. the vocal part contributes 38 percent.
+' ____rj of the speaker contributes for 55 percent to the effect of the
+"""‘.I'_trr5__lies that the facial expressions form the major modality in
+5:}:31_ t role in human communications. Cognition of
+through recognition of facial expression. Analysis
+"ntial applications in areas such as psychological
+understanding, robotics, crowd surveillance,
+811' .
+
+  
+  
+ 
+ 
+  
+  
+ 
+ 
+':'-:o'_ ter can sense and understand the user's
+intentions from _- - - inst be possible for the system to assist
+them
+In a human —-
+i 2.1.2 Existing Systems and-So '3 -
+-:.-:; yzing the emotional expressions of
+applying for the job, applicants
+prospbctive candidates for its entry-1W
+undergo a video interview with a standard set __"f'stions through their computer, tablet
+and, smartphones. As a candidate is anSWei-ing the questions, an A1 algorithm constantly
+l7:
+ 
+  
+ 
+  
+  
+m 635111-35 the facial expressions, emotions and other personality. Fin» ..
+report regarding the candidate’s emotional reaction to each question is the i
+the Mtg“ Based on the emotional analysis, AI also helps in shortlistingi'thelnz
+I m. that it feels 15 best suited for this job.
+
+  
+  
+ 
+ 
+ 
+  
+ 
+  
+ 
+ 
+  
+ 
+ 
+technology helps Disney to ﬁnd out whether the audience is enjoying the
+Compared to the data collected using reviews and surveys. the emotion
+as provide more reliable and real-time data.
+
+ultinational food manufacturing company, is using emotion recognition
+-_'tS branding and advertisement. Multiple versions of an advertisement are
+times to the viewers and their emotions are captured using finial
+are. The creators of the thriller adventure game, Never mind, are using
+tion technology in order to deliver a better gaming experience. As
+the game, their facial expressions are captured through a webcam. The
+5 a fed to an emotion recognition app which infers emotions like fear
+The gameplay is then altered based on the emotional state of the
+'_ unalized experience.
+
+ 
+-I'-. ___JPaper Tltle
+   
+ 
+ 
+   
+Citation -
+A. Lanitis
+    
+       
+Himanshu
+Comparin
+Kumnr Amethia g
+Different
+classiﬁer ﬁx
+automatic age
+estimationﬂ]
+The model-based
+representation of
+unseen images and
+produce an estimate
+of the age of the
+person in the
+corresponding face
+image and for
+improving the
+accuracy.
+
+  
+    
+ 
+  
+  
+     
+   
+  
+ 
+ 
+ 
+ 
+ 
+  
+     
+      
+    
+ 
+     
+Dept. of Comput.
+Sci. 8:, Eng-.
+Cyprus Coll.,
+Nicosia, Cyprus
+      
+    
+   
+  
+  
+C. Dmganova
+ChrisinaDraganO
+va received the
+M. Sc. degree and
+the Ph.D. degree,
+both in
+mathematics.
+from Soﬁa
+University, Soﬁa,
+Bulgaria, and the
+M.Sc. degree in
+computing
+science from
+Birkbeck
+College,
+University of
+London, London.
+UK.Automatic facial
+makeup detection
+with aP'F'licatiolzi
+111 face
+recognition[2]
+Facial mg. I_' '
+the ability to. a] a
+   
+   
+   
+ 
+ 
+ 
+  
+  
+recognition
+that of meth-
+  
+ 
+ 
+ 
+  
+  
+    
+ 
+ 
+ 
+and beauty from
+faces. In this work,
+we design a method
+to automatically
+detect thepresence
+of
+makeup in face
+images
+ 
+ 
+ 
+  
+ 
+  
+    
+    
+     
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+Himanshu
+Kumar Amethia
+Learning gender
+with support faces
+Nonlinear support
+vector machines
+(SVMs) are
+investigated for
+appearance-based
+gender
+classiﬁcation with
+low-resolution
+"thumbnail" faces
+processed from
+1,755 images from
+the FERET
+(FacEREcognition
+Technology) face
+database. The
+perfomiance of
+SVMs (3.4% error)
+is shown to be
+superior to
+traditional pattern
+classifiers (linear.
+quadratic, Fisher
+the appearance of a
+Person. Such an
+alteration can
+degrade the
+accuracy of
+automated face
+systems, as well as
+ 
+odsestimating age
+ 
+ 
+ 
+     
+Engineering?“
+Virginia
+University,
+Morgantown,
+USA
+  
+ 
+  
+ 
+  
+ 
+    
+  
+  
+ 
+AntitzaDantcheva
+Computer
+Science and
+Engineering
+Michigan State
+University, East
+Lansing, USA
+  
+  
+  
+  
+  
+B. Moghaddam
+Mitsubishi Electr.
+Res. Labs.
+Cambridge, MA
+USA
+Ming-
+HsuanYangChallengcs in
+real-life emotion
+annotation and
+machine learning
+based detection
+Since the early
+studies of l'm'l'l'lm
+“Mia. emotim
+has attracted the
+interest of
+researchers in many
+disciplines of
+Neurosciences and
+Psychology. We are
+EXploring how the
+expression of
+emotion is
+perceived by
+listeners and how to
+represent and
+automatically detect
+a subject's
+emotional state in
+speech. In contrast
+with most previous
+studies, conducted
+on artiﬁcial data
+with archetypal
+emotions, this paper
+addresses some of
+the challenges faced
+- when studying real-.lishan Garg
+Classiﬁcation
+and regression
+by
+Forest
+random
+The nacr interface
+‘0 random forest is
+consistent with
+that of other
+classiﬁcation
+functions such as
+nnetQ
+(in the met
+Package) and sva
+(in the e107l
+package).
+
+(We actually
+borrowed some of
+the interface
+code from those two
+functions.) There is
+a formula
+interface, and
+predictors can be
+speciﬁed as a
+matrix
+or data frame via
+the x argument,
+with responses as a
+vector via the y
+argument. if the
+response is a factor,
+randomForestperforrn
+s classiﬁcation
+A physiological
+signal-based
+'_'. .m 'onrecognitionabort-term
+mm hating
+Physiolog in]
+Sign In
+A role for
+somatosensory
+cortices in the
+visual recognition
+I, of emotion as
+' mapping
+variation and
+electmderrnal
+activity. all of
+thCh were
+acquired with“:
+much discomfort
+from the body
+surface, and can
+reﬂect the inﬂuence
+of emotion on the
+autonomic nervous
+system. The system
+consisted of
+preprocessing,
+feature extraction
+and pattern
+classiﬁcation
+stages.
+
+Although lesion and
+ﬁmctional imaging
+studies have
+broadly implicated
+the right
+hemisphere in the
+recognition of
+emotion, neither the
+underlying
+processes nor the
+precise anatomical
+correlates are Well
+understood. We
+addressed these two
+issues in a
+quantitative study
+of 108 subjects with
+Ralph Adolphs,
+Hanna Damasioidentifyin _.
+expressions than
+their low trait El
+counterparts. In
+study 2, trait BI
+scores from 102
+persons were
+residualized on the
+Big Five and
+subsequently I 5
+high and 15 low
+trait El individuals
+were selected to
+participate in a
+mood induction
+experiment.
+
+   
+     
+     
+   
+   
+ 
+       
+ 
+     
+      
+ 
+     
+   
+   
+ 
+         
+ 
+    
+ 
+     
+  
+  
+ 
+  
+This L.C. De Silva
+describes the use of Pei Chi Ng
+statistical
+techniques and
+hidden Markov
+models (HMM) in
+the recognition of
+emotions. The
+method aims to
+classify 6 basic
+emotions (anger,
+dislike, fear,
+happiness, sadness
+and surprise) from
+both facial
+expressions (video)
+and emotiOnal
+Speech (audio). The
+emotions of 2
+human subjects
+were recorded and
+. analyzed. The
+Mugs show that
+_‘ ._ audio and video
+' 'On can be
+Birnodal emotion
+recognitionWin-1m} ﬁlm facial iv‘mm
+W11? . -
+*"mm m l ems-m h
+mum-u! ' htwwd m m I
+Am min In the
+”I'D-ll recognition of
+Iﬁﬁ’mhﬂy m‘ a central N
+More m cameras I
+Inn-hm M Mr I! is
+Felt invoked in the
+recounts-m of all
+min“ or
+whether it is me
+important to m
+mime than to
+others. We dentin
+studies of two
+people. DR and SE.
+with impaired
+recognition of facial
+expressions in the
+context of bilateral
+amygdala damage.
+When tested with
+photographs
+showing facial
+expressions of
+emotion from the
+Ekman and Friesen
+(1976) series, both
+DR and SE showed
+deﬁcits in the
+recognition of fear.
+Problems in
+recognising fear
+were also found
+using photographic
+quality images
+interpolated
+(“morphed")
+between prototypes
+u of the six emotions
+in the Ekman and
+I' 'esen (1976)
+' - - 'es to create a
+'- j-._ -: :onal
+23...- ed pattern in the images. Pose of the faces may differ due to angle
+-'-v- y he faces which are frontal or non frontal. Faces may be at
+' .scure some of the facial features. Some good preprocessing
+: - on input images which have good insensitivity to
+head. At present, many feature-based methods of
+';.Spatial analysis or geometrical information as facial
+localization of facial points is a key step to
+'-’-'-'_.:. as robotics, the performance of facial point
+l extraction 31 ii”. environmental factors such as lighting
+' conditions heavily. ﬁ'u-uniform, facial point can be detected
+inaccurately and hence; _ in " ial expression hardly expected. This
+factor would typically make -i='i._1
+cmnpensate the variation of ill m '
+like DCT normalization, Histogram
+Harem cam-action
+' difﬁcult to perform reliably. To
+"an: ge, image preprocessing methods
+3.1% .. Normalization can be appliedTools and Technologiu used
+2.1-5 5“ . _ 
+yﬂuon is an interpreted hlgh-level programming langua'gl
+. g_ It is an open-source language therefore developers - __
+"F0 13qu by developing libraries. Python has many libraries which provides . _ __
+' - - - ' . and analyzing human neurOphysiological data like EEG, -networks or connectionist systems are computing
+9'». the biological neural networks and astrocytes that
+; systems "learn" to perform tasks by considering
+_eing programmed with any task-speciﬁc rulesML
+---._ neural networks or, more particularly, multi-layer
+'-_:'?f'-_a_on1y used type of neural networks. MLP consists
+{one or more hidden layers.
+
+- 3:? _lbasically a classiﬁer which is used to detect the
+'31:." ., ﬁ'om the source. The Haar Cascade is trained
+a set of negative images. The training is
+"Ea-1:. , ;_ stages.
+-d cascade classiﬁers is an effective object
+and Michael Jones in their paper, "Rapid
+iii:— -of Simple Features" in 2001. It is a
+.":i'="_:cmde function is trained from a lot of
+' fetcct objects in other images.
+
+l
+.7 .2' STANDARDS USE i?"
+I | 1 PEP-8
+SW16 guide for pythonco-de
+. [EC-61512 __
+The standard sought to address the follo .
+
+batch control, difﬁculty in communicating W
+automation suppliers, diﬁculty in batch controlooﬁﬁgmaﬁon'
+: lack of a universal modelfor
+_ment, integration among batch
+2615013849
+O
+safe
+ty of machinery — Safety-related parts of control systems.
+
+- for a formally organized process to manufacture a
+_-_ and monitoring progress. Like CMMI, certification with I
+ 
+  
+  
+ 
+ 
+  
+  
+ 
+  
+ 
+i. the quality of the end result, only that formalized
+been followed.
+
+-- (W3C) is an international community where Member
+'-_ god the public work together to
+5 Web inventor and Director Tim Bemers—Lee and CEO
+is to lead the Web to its full potential.
+
+"t can be continued or integrated into commonW‘AREREQUIREMENTSSPECIFICATION
+2:50
+a -. ..- . ,ucﬁon
+    
+  
+  
+  
+  
+ 
+  
+ 
+ 
+  
+  
+       
+ 
+-_ ..to identify theircustomerbase.
+
+; 5;; identifyingpoliticaltrends.
+
+i- them in their personal life for reviewing theirde
+chology and for othermedicalpmposes.
+
+-. (1 Reading Suggestions
+who wants to know about purpose, scope, hardware and
+w. ted and working of the A.G.ESYStem-
+entiﬁcation of expression, age and gender, and then
+a the product is capable of giving real time
+-‘-.-__._f\_'_ acy will be preferred over response time.
+
+”-..-'.__"enerated output is left to user and it will not be
+the part of out-v.31" pr may decide to play music based on his
+expression such fun. . ._ added but will not be the component of our
+  
+   
+system This was d one so 'base is wide and not restricted to only a
+certain ﬁeld.. is supposed ‘0 he a“ 0pc“ Mme. under the GNU
+l‘ . F , general
+client sen or model. The AGE System prov'd
+- I cs simple m
+and gender identiﬁcation.
+_ Ire the key points of our system —~
+' «,1 issue commands.
+
+dev1ce and our system needs to be connected through WiFi No
+3.,_.-. tion.
+
+It is Expression detection results are better on
+o lution camera isbeingused
+highly modular with each hardware and soi’tWare
+g better hardware
+increased easily just by usin
+the system’s response. w":
+(Processor).
+
+-I1JI
+29:ous situation? so the interface is easily modiﬁable
+1e as possﬂale so that people with low technical
+cc -— It is just a wired connection for transferring data
+'11 be between the device
+' . The connection between
+. 'Iﬂight management online application-
+3 Description
+Operating system
+30. .=— , cﬁonanequircments
+ 
+.' -. equircments
+1:,— As there is no need of real-time output our system can mkc amu d 1. 5
+fl
+ing the image. Response time willal
+so be a factor oft
+1 .- in use for a speciﬁc task. Report generation should also 4K1:
+the product is using Raspberry pie for com ' ' '
+. . mutation and ntermcd
+Raspberry pic model being used has free space of aroun'd SOB. i)“;
+__'_- used continuously forasingle task for aboutl 2- l4hrs.
+
+.' -' 'remcnts
+.1; u. on electricity, it should bewellinsulatcd.
+. _ come in contactwithwater.
+
+authentication through login—id and login- paSSWOI‘d
+eratereports.
+I t;- .It must be ensured that only anonymous data is
+ges or videos to anextemaldevice.
+
+   
+  
+.. storing ima
+31Table 2 Cost Analysis. m inside the application. Complex applications can ptesent ﬂaws that ar
+1:
+”33nd disrupts the system.
+
+arr-Hon data can easily be collected in public places —all the soﬂwarewould
+of thesubj ect’sface.
+-- .1 image searches can provide stalkers with more data abouttheir
+H onitoring and maintenance needed otherwise systemmight
+"identiﬁcation through login ~password to preVentany3. METHODOLOGY ADOPTED
+ 
+IVE TECHNIQUES
+..-..: .cy of L\p;c§“.101‘l detection we used the sample test set of fcr2013
+. “ x was obtained on one of our models (not the ﬁnal model} data
+From this man-ix .- . Precision, Recall are calculated to
+test the overall efﬁciency {its—.2 -
+We plan to use similar approaches
+3.2 PROPOSED SOLUTION
+The Principal of A. G E is to let the users to preﬁi'ct gender, illumination and
+“Plt‘bbiun tiom thei: racial images as age prediction or g i 113-. -. m'ction is already “15‘s
+I . . .
+ml or: impiuud ilie accuracy using ensemble model and coupled age gender illumination
+32
+/and after th th as'
+th at on e b 18 of age, gender and expression Fifi-.1. .,. . .
+age en we extracted the features using Histogram 0 ' 3:;
+nente
+Binary Pattern through MATLAB after
+,_ that we a lied
+models like pp about 10
+gender
+dels are implemented in OpenCV . We ﬁnally obtained the
+Ne - I
+ural Network, decrslon tree, random forest on every
+i385 dataset, dataset, dataset, illumination dataset and expression
+- learning “‘0
+illumination and expression and these results will be store in
+. 1. can play audio/videos on the basis of age, genderandexpressionClassiﬁcation
+(Ada Boost)
+' ':-‘_.-'§‘_.-_.. ArchitectureFig 7-ClassDia-3IIIIII
+  
+0
+.4.i._n'.~._ n e Design
+L 4:!
+/-r|i Ho‘sw-‘L' Inn”-
+'3
+i811 cu-su [or an optimal. "perk-nu)
+“Malt:with!“\temaI-flouhpﬂhun
+Iau.pythun.framework.op3) I} deprpca‘ed
+rw m , mil” r
+  
+\sna-packagesxtflurn
+1w.pythnn.ops.1nit_nps) ia
+for. to 32’: :quiulen behninr.
+l-puch'uufluI-Mllyer“1011.”:
+'-_pruh is dearer-ted a'1d will he
+  
+ 
+ 
+ 
+   
+ 
+ 
+I :- 1 - keepjrob‘ .
+sachtesuflearnmbjectlv:pr:
+- beep_dims is duprecued Md will
+_ esKtensnrf 1w\py1hon\ups
+untzd and will be fetched in/
+f
+/
+ 
+     
+     
+  
+   
+  
+   
+ 
+   
+_ OF THE PROJECT
+. -- . orkﬂow
+In! on nth-(1b..
+' HM
+ 
+Fig-15 Procedural Workl‘low
+.‘f‘ISEd
+"a mixed approach toward algorithmic use in the code W h
+. 0 ENE
+if libraries were not available or when we needed a tweaked H
+{also used compiled algorithms from libraries when they were
+robustness and execution efﬁciency.
+
+.__.ed was Image processing. Several algorithms were used in
+contrast stretching. For noise removal median ﬁltering and
+1' face detection. While training the emotion recognition
+1.. building a face detector. It produced quite satisfactory
+merits in a reasonable time. Wh -. 'r't1 the gender-age model the dataset was quite large as
+W to emotion detection and ’ ascade was proving to be a bit slow hence we used
+military inStead. Using dlib library the training time a lot.
+MWand emotion classiﬁcation we used Convolutional Neural Network (CNN) 38 the 011th
+'i’ﬂ-categoﬁcal value. For age detection we used Convolutional Neural Network (CNN) and
+W it With regression algorithms as output can be seen as continuous value. In the bcgmnlng
+We - . _ . . For implel
+used sclk‘t'lﬁam library for CNN. Later We tried to build a CNN of our own
+CNN We Used ' ' ' 1 gorithms. We also use
+nentiﬂg.51 TESTING PROCESSuW“ “n“ be evaluated by “‘e model .
+._ : y. Mm" Will
+Imam ”K
+ 
+ 
+wing two techniques HOG and I [31‘
+__. ag 1 uploaded by ciamera. and then mod I ' d“
+.. es, emotions etc. 8 '5 trained m
+'-"':¥-. g, a ' a e learning models to get more optimized results which will
+“aflpi for the further processing.
+a Indian Movie Face Database (IMFDB) database for the
+base composed of 34512 facial images corresponding to
+6.. tely 103 movies.49Age Detection
+Gender Detection
+Table 4-Results
+90%
+_._‘_._. _WebCam the accuracies depended heavily on -
+.ofcamera
+. when S-IVIP camera was replaced with S-MP camera.
+
+”“5;_.,onditions both decreased the accuracy of the model, emotion
+are-“st sensitive to lightning conditions
+'33-: bject was either too close or too far from camera Around
+_e provided the best results in all three models.6. CONCLUSIONS 8: FUTURE omscrlons
+   
+ 
+  
+    
+  
+    
+  
+ 
+  
+      
+Iii ish. 0N5
+ii" 1' and facial expression reeo nitio
+g 11 system presented in this research work
+resilient ace recognition model based on
+f the mappin ’
+g of behawoufal
+i: with the physiOlOBiCﬂi biometric CharaCteristic3_ The Ph
+of the human face W1 YSIOIOgical
+surprise and dis
+th relevance to various expressions such as happiness
+gust are associated with geometrical structures which
+the recognition system. The behavioural aspect ofthis
+rent expressions as property base. The preperty bases
+gory in genetic algorithmic genes. The gene training
+t AGE
+':- : ___-_ attitude behind diffe
+- 1.11 and hidden cate
+Jamil uniqueness of individual faces and provide a resilien
+Sod _ofbio-metricsecurity.
+
+lly recognized emotions
+.There are six universa
+and sadness.
+
+i: get, surprise, disgust, happiness
+ious self cannot participate in detecting
+$11.1: eonsc
+yet it can also
+ 
+iriilmetions begin so quickly
+ithem That speed can serve
+"be denimemai when they
+manition of the facial expressions,
+gender their perception
+of the game and practice,
+coaches in vital ﬁlaments
+ale coaches in
+overreact. The perform
+within two duration
+of the expressionswas
+ance of male and fem
+limits (2501115 and 500msthe effect of
+examined.
+
+iheir coaching 'expmeneeand
+51
+//_ in the global market in 2014. This is due to the
+' - recognition technology In surveillance, which Is primarily due D
+ 
+ 
+better and accurate results, is expected to record steady growth
+35
+m-ology Furthermore, the facial recognition market is witnessing
+analytlcs systems that help generate descriptive metadata about a given
+1* - dentiﬁcation.
+:1e societal factors could inﬂuence our ability to process faces and facial
+1;; predict social intelligence. An experiment was conducted in which
+“13w photographs of subjects showing varying levels of smiles and
+«the subjects they‘ ‘would talk about personal issues with. The
+:1 :11ded to point to those demonstrating a “smile” type
+:-.- or cooperation were involved. Participants evaluated
+' themselves more positively than those who Were
+.-.__"_"_1ent”. While the existent literature does little to
+ession of emotion, Chen 5 contribution in
+'1;- expr
+y impact how
+the emotions we display certain]
+:nsibilitiesins society.' 3.2-: gender and facial expression recognition using Image Processing
+Work in the following way-ll captures image, preprocess it which
+. image segmentation ,noise removal and features would be
+done to identify their age, gender and facial expression
+tgroups.
+
+ml now we have completed entire Documentation 11'2111 that n"Presams the comp lac
+W Bfour project and its working. It involves various diagrams like Use case, entity-
+Wm SW Diagram, Activity Diagram. Swimlaﬂe Diagram, Use case Template.
+
+ 
+ 
+W ‘ - - ' lcte
+c h“: MOI! all the functional requirements of the prOJCCI that desenbes the comp
+53
+vInject 3 '
+of? rated- Non funcnonal
+be prepared.'7. PROJECT METRICS
+processing on each and every pixel present in the
+' re number of iterations.
+
+If color processing or skin color based processing
+urpose of identiﬁcation then, the factor like
+. globe may affect the overall process. This
+_tter threshold point for skin pixels. Even
+some objects carrying color same as skin
+The application of knowledge based
+abnormal persons. At that time, it is
+e "components like eyes, lips, nose,
+'-" and further identiﬁcation.
+Ialso affect the overall processing
+' 11150115 in different images or at
+3.3"." ._ and Muslims mostly having
+'lbefore feeding it to
+_ such as cropping and
+ 
+Computervision _ - _
+Software engineeringpsychology.
+CV'and apply SLDC to deploy this product.
+
+dware we used camera and
+tem to detect age gender and expression
+cted dataset from a face recognition
+ct for age and gender recognition.
+' for successfully deploying a product
+11 with ML. Beside technical skill we
+' d documentation.
+
+of various engineering discipline' ‘0 'KSfIIEDIILINli
+;-Work Scheduling
+' Student individually-
+'. . Himanshu Kumar Amethia
+__ ethia, Jishan Garg
+"T. .' Kaushik
+if}, Mukul Kaushik, Jishan Garg'-'-.._---c to obtain analytical and
+     
+Used mathematical like
+ﬁlteringcroppingprocess
+InImageprocessing.Theseconceptswereals
+0 used to int - at and anal e theresults.
+pplied main concept of computer science
+esearch in our project.
+
+concepts
+     
+    
+     
+  
+ 
+ 
+ 
+        
+  
+  
+iples of science towards
+  
+  
+'efore the devel0pment of project prope
+I u : 'ons and models for the
+onstra Ints and assumptions wer -
+   
+     
+    
+Ieco- ition com . tition held In 2013.
+’roper test data set and other testing
+rocedure were followed to achieve the
+bjectives with respect to assumptions and
+onstramts.
+
+D esigned a system which can recognize age
+_ender and expression simultaneously.
+
+   
+   
+' :- . . assumptions,
+  
+      
+    
+    
+in different
+ 
+ 
+    
+   
+ 
+his project is majorly software with basic
+I ardware and takes care of all the
+onstraints and scope.
+
+ach team member worked on a different
+». -ssigned module.
+
+cam member played different role
+» ccord 1n . to the situation and re - uirements.
+0 develop a intelligent system which not
+.nly detects face but gives basic details such
+-= 5 age gender and expression which can be
+economic,
+' .. and safety,
+ 
+   
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+    
+     
+ 
+ 
+    
+y to help companies for
+u . h this product.
+
+ 
+  
+was our moral dut
+' ision making thro
+llowed the different standards for
+-: and other standards necessary for
+" - tation.
+
+      
+     
+    
+laboratory or projCCt
+  
+  
+  
+  
+-I niroriatcfomials.
+
+.Deliver well-organized and eﬁ’v .'
+'I ’ Ware ofenvimmnental and sociew '-
+-oluIions.Table-7 Student Outcomes
+' -'— 'SESMENT
+  
+  
+ 
+9-1911 did your team explore to arrive at the list of
+3.... ..-31ble projects problem in detail. We also discussed the prob
+he] '
+__ p of various books, research papers and journals to explore the
+.huge role as there were many articles and videos available.
+
+3;. r = and/orexperimentalmethodsdidyourprojectteamusetoobtain
+3.1: .._-ject‘?
+
+ 
+‘ F3911 for the problem with a bit of use of hardware we used camera
+""-"-...-.r::_-_. We made a system to detect age gender and expression
+“’.°;--..-e collected dataset from a face recognition competition
+-":'-:;J for age and gender recognition.
+
+_0: knowledge of fundamentals, scientiﬁc and/or
+j;_._r_1eural network (CNN) which uses the concept
+13d expression. we explored various research
+junicate the information of schedule with
+" 'endencies?
+about the
+rk equally
+ery alternate week to discuss
+"';,:*_'--had also clearly divided wo
+marked together striving for excellence.
+
+'...‘_'=ught in class for the course of the
+05. What resources did
+iject?
+'. successﬁllly deploying a product. ”I
+lwe r
+AIls:We learned how to a l
+PP Y .. ' '
+ML. Beside technical 51:11
+We learned to work on OpenCVova. and (~_ (.‘hristodnulon‘ “(-nmpanng f'iflrrrm e _
+. "Cl-1F. Transactions on Systems. Man and t‘yhcrncnm"
+2004. ' M I.
+
+_- . and M.-l-l.Yang. “Learning gender with su
+_ pport faces. T .. P
+_5):707—711.2002. ram 8mm
+- . -.C R2, KaI‘Lhik Joshi S3, Keshava B N4, Mrs. Asha N5. “Emotion
+_e .r ” International Journal of Recent Trends in Engineering &
+e 06; June — 2017[ISSN:2455-l457].
+
+"3.-'-_.--:-catmun and regression by random Forest”, R News. 2,
+.. -. appa, “Modeling age progression in young
+”-“--.'_'_-eecognition”, volume 1,pages387—3 94.IEEE,2006.
+
+and Machine Intelligence Special Issue on
+7.
+
+'otion recognition system using short-term
+Biological Engineering & Computing
+  
+      
+ 
+  
+   
+   
+ 
+ 
+[9] Feng ._'___._ 25;. g Shum,"Emotion Detection from
+Speechto Enrich ‘2' ' . _. h China, 3/F Beijing Sigma Center,
+Beijing 100080, P.R.C.
+
+3'20 similarity search and emotion
+[10] Tao Li and M. 03mm ' ‘
+"__coustics, Speech, and Signal .,
+detection," 2004 IEEE International. .
+ProcessingUCASSP), Montreal, Que, , pp_'V..__
+“U L. Devillers , L. Lame] , I.
+Orientedspokendialogues".
+
+ 
+W'Otion detection in task-' Laurence Vidrascu Lori Lamel,"Challenges in real-life emotion
+if“ ' u gbascddetcction".' 1 1 10m. 9%
+“1 Exam '- .-“-I -- w." ra was: nuts. 3' 1.095” “var,-
+-ﬂlth E11131 fﬂ-‘_.‘}1H':1,1:,1_Liz-lgphﬂj 3
+1'“qu 13:35-11:31 (11353110311011 airmen-f ’6
+. on brail"-—l.0111['3UlE‘f interface”.
+
+ 
+  
+   
+   
+   
+1 ‘3"-
+H
+I Zakareya Lass
+Ayyal’asom ayajula .
+séhure detection 1131
+5.811: Annual Ubiqul ..'- __

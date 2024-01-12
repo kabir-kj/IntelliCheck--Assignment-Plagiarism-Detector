@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliCheck</title>
+    <link rel="stylesheet" href="{% static 'style1.css' %}">
+</head>
+{% block content %}
+<body>
+    <nav>
+        <ul>
+            <li class="brand"> <span class="easyqueue-text">IntelliCheck</span></li>
+            <li> <a class="nav-link" href="/Signup_Student/">Student Signup</a> </li>
+            <li> <a class="nav-link" href="/Signup_Teacher/">Teacher Signup</a></li>
+            <li> <a class="nav-link" href="/Login_Student/">Student Login</a></li>
+            <li> <a class="nav-link" href="/Login_Teacher/">Teacher Login</a></li>
+        </ul>
+    </nav>
+{% endblock %}
+    <div class="hero">
+        <div class="form-box">
+           
+            <h1 class="heading">Log-In Student</h1>
+            <form id="login" class="input-group" method="post" action="{% url 'LStudent' %}"> 
+                {% csrf_token %}    
+                <input type="text" name="email" class="input-field" placeholder="User Id" required>
+                <input type="password" name="password" class="input-field" placeholder="Enter Password" id="password" required>
+                <button type="submit" class="submit-button">Log In</button>
+            </form>
+            {% for message in messages %}
+                <h3>{{ message }}</h3>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>

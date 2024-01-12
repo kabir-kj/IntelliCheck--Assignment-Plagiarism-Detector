@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliCheck</title>
+    <link rel="stylesheet" href="{%static 'student1.css' %}">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li class="brand"> <span class="easyqueue-text">IntelliCheck</span></li>
+            <li> <a class="nav-link" href="/Submitassigments/">Submit Assingment</a> </li>
+            <li> <a class="nav-link" href="/showassigments/">Show Assingment</a></li>
+            <li class="nav-item">
+                <a class="nav-link" href="/logout/">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="form-box">
+        <h1 class="heading">Welcome, {{ user_name }}</h1>
+        <form id="details" class="input-group" method = "POST" action = {% url "keyverify" %}>
+            {% csrf_token %}
+            <input name = "Vkey" type="text" class="input-field" placeholder="Enter Key" required>
+            <button type="submit" class="submit-button1">Verfiy Key</button>
+        </form>
+   
+    </div>
+    </div>
+</body>
+</html>

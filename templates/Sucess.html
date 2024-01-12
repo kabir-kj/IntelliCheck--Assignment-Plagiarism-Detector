@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    {% load static %}
+  
+    
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IntelliCheck</title>
+    <link rel="stylesheet" href="{% static 'Style_Teacher.css' %}">
+   
+</head>
+
+<body>
+   
+    <nav>
+        <ul>
+            <li class="brand"> <span class="easyqueue-text">IntelliCheck</span></li>
+            <li> <a class="nav-link" href="/Teacher_Dashboard/">Create Assingment</a> </li>
+            <li> <a class="nav-link" href="/showassigmentst/">Show Assingment</a></li>
+            <li> <a class="nav-link" href="/Update_Assingment/">Update/Delete Assingment</a></li>
+            <li class="nav-item"> <a class="nav-link" href="/Teacher_logout/">Logout</a> </li>
+        </ul>
+    </nav>
+<div class="hero">
+    <div class="form-box">
+    <h2>Please verify the details below and share key with students:</h2>
+    <p>Teacher Name: {{ Tname }}</p>
+    <p>Teacher ID: {{ E_ID }}</p>
+    <p>Assignment Name: {{ Aname }}</p>
+    <p>Unique Key: {{ U_Key }}</p>
+    <p>Deadline: {{ Deadline }}</p>
+
+</div>
+</div>
+</body>
+
